@@ -1,0 +1,8 @@
+db.sqlite3
+pycharm/
+env/
+env/*
+.idea/*
+.idea/
+__pycache__/*
+__pycache__/
