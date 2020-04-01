@@ -8,13 +8,13 @@ def home(request):
 
 
 def about(request):
-    with open('D:\ptn-2\home\page/about.txt', 'r') as f:
+    with open('about.txt', 'r') as f:
         about = f.read()
     return render(request, 'home/about.html', {'about': about})
 
 
 def contacts(request):
-    with open('D:\ptn-2\home\page/contacts.txt', 'r') as f:
+    with open('contacts.txt', 'r') as f:
         contacts = f.read()
     return render(request, 'home/contacts.html', {'contacts': contacts})
 
